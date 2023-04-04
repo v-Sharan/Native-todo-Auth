@@ -3,8 +3,8 @@ import React from "react";
 
 const index = () => {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text style={{ color: "red", fontSize: 100 }}>Todo</Text>
+    <View className="flex-1 justify-center items-center">
+      <Text className="text-red-400 text-5xl">Todo</Text>
     </View>
   );
 };
